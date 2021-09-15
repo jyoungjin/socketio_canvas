@@ -1,0 +1,28 @@
+.canvas {z-index: 999; width :730px; height:34%; position: absolute}
+
+.video { width :100%; object-fit: fill; height:92%;} 
+
+#clear {
+    background-color: rgb(179, 210, 245);
+    border: none;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 13%;
+    color : white;
+    font-size: 15px;
+    vertical-align : middle;
+}
+
+#clear:hover {
+    background-color: teal;
+}
+
+select {
+    background-color: rgb(142, 207, 111);
+    width: 70px; /* 원하는 너비설정 */
+    padding: 2px; /* 여백으로 높이 설정 */
+    border: 3px solid rgb(58, 48, 48);
+    border-radius: 0px; /* iOS 둥근모서리 제거 */
+}
